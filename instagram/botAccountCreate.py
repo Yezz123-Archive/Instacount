@@ -2,7 +2,7 @@
 from random import randint
 import time
 from selenium.webdriver.common.by import By
-import accountInfoGenerator as account
+import Generator as account
 
 browser= webdriver.Chrome("chrome web driver path here")
 browser.get("http://www.instagram.com")
